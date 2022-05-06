@@ -1,0 +1,10 @@
+* {
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+header{
+    background-color: #4D00FF;
+    color: white;
+    margin-top: 75px;
+    text-align: center;
+}
