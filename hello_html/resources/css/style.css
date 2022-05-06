@@ -2,9 +2,67 @@
     font-family: 'Josefin Sans', sans-serif;
 }
 
-header{
+header {
     background-color: #4D00FF;
     color: white;
-    margin-top: 75px;
+    margin-top: 50px;
     text-align: center;
+    padding: 30px 0;
+    margin-bottom: 20px;
+}
+
+#small-jack {
+    height: 100px;
+    width: 100px;
+    filter: drop-shadow(3px 3px 3px rgb(0, 0, 0));
+}
+
+#jack {
+    color: #4D00FF;
+    font-size: 100px;
+    
+}
+
+.bold {
+    font-weight: 900;
+}
+
+nav{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    background-color: white;
+    z-index: 10;
+    
+}
+
+nav li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+}
+
+a.blue {
+    color: blue;
+}
+
+#greets ul {
+    list-style-type: none;
+}
+
+main {
+    padding: 20px 50px;
+}
+
+.avatar {
+    background-image: url('../images/jack.png');
+    background-size: cover;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    display:inline-block;
 }
